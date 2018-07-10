@@ -33,8 +33,29 @@
     - Basic Math Calculation (Linear Algebra, Matrix Cal..)
       
   + **주요함수**  
-    - np.array([1,2,3], dtype='float32') : 해당 내용을 명시한 자료형으로 담은 array를 반환
-    - np.linspace(a, b, n) : a에서 b까지 n개로 균일하게 나눈 값을 저장한 array를 반환
-    - np.arange(a, b) : a에서 b까지 1의 간격으로 변수들을 담은 array를 반환
-    - np.arange(a, b, n) : 간격을 n으로 설정할 수 있음
-    - np.arange(b) : a값을 주지 않으면 0부터 생성
+    - **np.array([1,2,3], dtype='float32')** : 해당 내용을 명시한 자료형으로 담은 array를 반환
+    - **np.linspace(a, b, n)** : a에서 b까지 n개로 균일하게 나눈 값을 저장한 array를 반환
+    - **np.arange(a, b)** : a에서 b까지 1의 간격으로 변수들을 담은 array를 반환
+    - **np.arange(a, b, n)** : 간격을 n으로 설정할 수 있음
+    - **np.arange(b)** : a값을 주지 않으면 0부터 생성
+    
+  + **사이트**
+    - numpy 공식사이트 <http://www.numpy.org/>
+    - numpy reference <https://docs.scipy.org/doc/numpy/reference/>
+
+
+## Matplotlib
+  + **소개**
+    - Python Library
+    - Visualization Tool
+    - Import -> Data Matching -> Plotting
+    
+  + **주요함수**
+    - **plt.plot(x, y)** : plot 형식(점을 찍고 그 점들을 선으로 연결)으로 data를 표현할 것
+    - **plt.scatter(x, y)** : scatter 형식(점만 찍어줌)으로 data를 표현할 것
+    - **plt.show()** : 저장된 data를 시각화
+    - *plot에 여러 함수를 넣어놓고 show를 호출하면 동시에 여러 그래프를 그릴 수 있음*
+    
+  + **사이트**
+    - 기본예제 <http://thrillfighter.tistory.com/472>
+    - matplotlib 공식사이트 <https://matplotlib.org/>
