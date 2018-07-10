@@ -25,3 +25,16 @@
   + **개념**<br>
   LASSO와 같은 방식이지만 W값들이 0에 가까워질 뿐 완전히 0이 되지는 않기 때문에 모든 feature가 모델에 반영된다. 모든 feature들을 살리고 싶을 때 사용한다.<br><br>
   
+  
+## Numpy
+  + **소개**
+    - Python Library
+    - Array & Multi-Dimension Matrix Management *(C language based implementation -> **fast!**)*
+    - Basic Math Calculation (Linear Algebra, Matrix Cal..)
+      
+  + **주요함수**  
+    - np.array([1,2,3], dtype='float32') : 해당 내용을 명시한 자료형으로 담은 array를 반환
+    - np.linspace(a, b, n) : a에서 b까지 n개로 균일하게 나눈 값을 저장한 array를 반환
+    - np.arange(a, b) : a에서 b까지 1의 간격으로 변수들을 담은 array를 반환
+    - np.arange(a, b, n) : 간격을 n으로 설정할 수 있음
+    - np.arange(b) : a값을 주지 않으면 0부터 생성
